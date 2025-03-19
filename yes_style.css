@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f9e3e3;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header_text {
+    font-size: 3em;
+    color: #d32f2f;
+}
+
+.gif_container img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+}
+
+
+
+
+.yes-button1:hover {
+    background-color: #d81b60;
+    transform: scale(1.1);
+}
+
+.yes-button1 {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: block; /* Đảm bảo nút Yes nằm trên */
+    top: 300px; /* Cách mép trên 50px */
+    right : 450px;
+}
+
+
+.text-box {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #ADD8E6;
+    color: #4B0082;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    width: fit-content;
+    position: absolute; /* Giúp căn chỉnh vị trí */
+    top: 400px; /* Cách mép trên 50px */
+    right : 120px;
+}
